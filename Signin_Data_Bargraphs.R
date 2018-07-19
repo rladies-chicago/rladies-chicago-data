@@ -14,10 +14,6 @@ library(tibble)
 #rladies_palette <- c("#88398A","#D3D3D3","#181818","#562457","#88398A") # From R-Ladies Global Github (has black as one of the colors)
 rladies_palette <- c("#88398A","#D3D3D3","#C5B4E3","#562457","#7E5475") # Slightly modified to get rid of black as sa fill color
 
-# Get data from google form
-url <- 'https://docs.google.com/spreadsheets/d/1IYW5Dp46dm8uA15K49LscJHt329OWD7n2vBMlLj5WsI/export?format=csv&id=1IYW5Dp46dm8uA15K49LscJHt329OWD7n2vBMlLj5WsI&gid=1300416886'
-signin <-read.csv(url)
-
 # Look at data
 head(signin)
 dim(signin)
